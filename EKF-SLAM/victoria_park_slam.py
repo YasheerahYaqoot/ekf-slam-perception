@@ -516,9 +516,10 @@ def main():
                  }
 
     state_history, lidar_data, gps_time, gps_ground_truth, gps_ekf_state, gps_ekf_covariance = run_ekf_slam(events, ekf_state, vehicle_params, filter_params, sigmas)
-    # writing_data_for_error(gps_time, gps_ground_truth, gps_ekf_state, gps_ekf_covariance)
-    # error_calculation()
-    # writing_results_file(state_history, lidar_data)
+    writing_data_for_error(gps_time, gps_ground_truth, gps_ekf_state, gps_ekf_covariance)
+    error_calculation()
+    writing_results_file(state_history, lidar_data)
 
 if __name__ == '__main__':
     main()
+
