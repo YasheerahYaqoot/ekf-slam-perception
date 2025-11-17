@@ -7,7 +7,7 @@ import data_extract
 GRID_SCALE = 1
 GRID_SIZE = (400, 450)
 
-data = data_extract.read_data_file("Extracted States & Lidar Data.txt")
+data = data_extract.read_data_file("../EKF-SLAM/Extracted States & Lidar Data.txt")
 row = data.shape[0]
 
 poses = np.zeros((row, 3))
@@ -44,3 +44,4 @@ plt.grid()
 plt.tight_layout()
 plt.savefig("OGM.png", dpi=300)
 plt.show()
+
