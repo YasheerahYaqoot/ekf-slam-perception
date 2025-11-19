@@ -1,8 +1,5 @@
 # EKF-SLAM with Occupancy Grid: A Comprehensive Framework for Autonomous Navigation in Complex Environments
 
-# EKF-SLAM with Occupancy Grid  
-### A Comprehensive Framework for Autonomous Navigation in Complex Environments
-
 This repository provides a complete implementation of **Extended Kalman Filter SLAM (EKF-SLAM)** combined with **Occupancy Grid Mapping (OGM)** using the *Victoria Park Dataset*.  
 It integrates GPS, odometry, and LiDAR sensor streams to perform robust localization, landmark association, and environment mapping.
 
