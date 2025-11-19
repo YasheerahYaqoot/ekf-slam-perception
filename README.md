@@ -29,49 +29,6 @@ For detailed theory, methodology, and mathematical models, **refer to the full r
 
 ---
 
-## 📂 Project Structure
-ekf-slam-perception/
-│── EKF-SLAM/
-│ ├── data/
-│ ├── victoria_park_slam.py
-│ ├── slam_utils.py
-│ └── tree_extraction.py
-│
-│── Occupancy-Grid-Mapping/
-│ ├── occupancy_grid_map.py
-│ ├── data_extract.py
-│ └── tools.py
-│
-│── assets/
-│ ├── vp_dataset.jpg
-│ ├── ekf_states_lm.jpg
-│ └── OGM.png
-│
-│── EKF-SLAM_Project_Report.pdf
-│── README.md
-
-
----
-
-## 🖼 Visual Results
-
-### **1. EKF-SLAM Trajectory with Landmarks**
-![EKF States and Landmarks](./assets/ekf_states_lm.jpg)
-
-### **2. Occupancy Grid Map**
-![Occupancy Grid Map](./assets/OGM.png)
-
-### **3. Trajectory on Aerial Map (Victoria Park Dataset)**
-![Aerial Trajectory Comparison](./assets/vp_dataset.jpg)
-
----
-
-## 🎥 Demo Video
-
-https://github.com/user-attachments/assets/6af19840-7a6c-43e5-8cff-b32521f67566
-
----
-
 ## ▶️ How to Run the Project
 
 ### **1. Run EKF-SLAM**
@@ -98,4 +55,50 @@ This will produce the occupancy grid map in the folder as ``` OGM.png ```.
 ## 📘 Project Report
 
 A detailed technical report explaining the methodology, models, data association, EKF pipeline, and occupancy grid mapping is included in ``` EKF-SLAM_Project_Report.pdf ```.
+
+---
+
+## 🖼 Visual Results
+
+### **1. EKF-SLAM Trajectory with Landmarks**
+![EKF States and Landmarks](./assets/ekf_states_lm.jpg)
+
+### **2. Occupancy Grid Map**
+![Occupancy Grid Map](./assets/OGM.png)
+
+### **3. Trajectory on Aerial Map (Victoria Park Dataset)**
+![Aerial Trajectory Comparison](./assets/vp_dataset.jpg)
+
+---
+
+## 🎥 Demo Video
+
+https://github.com/user-attachments/assets/6af19840-7a6c-43e5-8cff-b32521f67566
+
+---
+
+---
+
+## 📂 Project Structure
+
+```
+ekf-slam-perception/
+│── EKF-SLAM/
+│ ├── data/
+│ ├── victoria_park_slam.py
+│ ├── slam_utils.py
+│ └── tree_extraction.py
+│
+│── Occupancy-Grid-Mapping/
+│ ├── occupancy_grid_map.py
+│ ├── data_extract.py
+│ └── tools.py
+│
+│── assets/
+│ ├── vp_dataset.jpg
+│ ├── ekf_states_lm.jpg
+│ └── OGM.png
+│
+│── EKF-SLAM_Project_Report.pdf
+│── README.md
 
