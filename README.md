@@ -61,13 +61,19 @@ A detailed technical report explaining the methodology, models, data association
 ## 🖼 Visual Results
 
 ### **1. EKF-SLAM Trajectory with Landmarks**
-![EKF States and Landmarks](./assets/ekf_states_lm.jpg)
+<p align="center">
+  <img src="./assets/ekf_states_lm.jpg" width="55%" />
+</p>
 
 ### **2. Occupancy Grid Map**
-![Occupancy Grid Map](./assets/OGM.png)
+<p align="center">
+  <img src="./assets/OGM.png" width="55%" />
+</p>
 
 ### **3. Trajectory on Aerial Map (Victoria Park Dataset)**
-![Aerial Trajectory Comparison](./assets/vp_dataset.jpg)
+<p align="center">
+  <img src="./assets/vp_dataset.jpg" width="55%" />
+</p>
 
 ---
 
